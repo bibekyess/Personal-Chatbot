@@ -8,22 +8,22 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Hello Chatbot"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello 👋! Thanks for visiting",
+        "Hi there 👋! What can I do for you?",
+        "Hi there 👋! How can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "Farewell", "Thank you for your assistance", "That will be all for now, thank you", "Well done, we will be in touch again soon", "Take care", "Goodnight!", "Have a great day", "It was a pleasure chatting with you", "Time for me to go"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Thank you for using BibekBOT. It was my pleasure to assist. If you have any further inquiries or would like to learn more about his projects, please do not hesitate to reach out to Bibek directly.",
+        "Goodbye! I appreciate the opportunity to assist you. For any future questions or inquiries, please feel free to directly reach out to Bibek.",
+        "It was a pleasure assisting you today. Thank you for your time and consideration. For any further information, kindly reach out to Bibek directly."
       ]
     },
     {
@@ -31,54 +31,300 @@
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+    {"tag": "BibekBOT-introduction",
+    "patterns": [
+                "Who are you?",
+                "How can you help me?",
+                "Tell me about yourself?",
+                "What can you help me with?",
+                "What else can you show me?",
+                "What does this pertain to?",
+                "How can I receive assistance?",
+                "Can you provide information on?"
+                ],
+    "responses": [" I am Bibek-Bot! I am here to assis you in obtaining information about Bibek. Feel free to ask my any question about Bibek and I will make every effort to respond to all inquiries. Thank you!"],
+    "context_set": ""
     },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
+    {"tag": "bio",
+    "patterns": [
+              "Tell me about Bibek",
+              "Who is Bibek?",
+              "What does Bibek do?",
+              "Briefly describe Bibek",
+              "Why should we hire Bibek?",
+              "What does Bibek bring to the table?",
+              "What can Bibek offer?",
+              "Give a quick summary about Bibek"
+              ],
+    "responses": ["Bibek stands for 'Boy Is Bold, Easygoing & Kind. He is passionate about learning new things and is interested in technology-focused activities that use AI tools and new technologies to solve any existing problems. Bibek is a hacker with experience in different technical stacks and is open to exploring new ones. In his free time, he enjoys playing sports and listening to purpose-driven startup stories and political activities. Bibek is a senior undergraduate in KAIST and double majoring in Electrical Engineering and Computer Science."],
+    "context_set": ""
     },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
+    {"tag": "skills",
+    "patterns": [
+                "What skills does Bibek have?",
+                "What's Bibek's tech stack?",
+                "Bibek's tech skills and programming abilities",
+                "What tools and languages does Bibek know?",
+                "What tools and technologies is Bibek comfortable with",
+                "Tell me about Bibek's tools and tech.",
+                "What does Bibek program in?",
+                "What programming language does Bibek use?",
+                "Bibek's technical skills",
+                "Bibek's toolkit",
+                "Talk about Bibek's skillset",
+                "What skillset does Bibek have",
+                "What tech does Bibek use",
+                "Describe Bibek's technical abilities",
+                "Python, JavaScript, C"
+              ],
+    "responses": ["Bibek is a tech-savvy guy who is well-versed in many tools and technologies. He is proficient in Python, including popular libraries like Pytorch, FastAPI and PySpark. He also knows web development and data visualization using JavaScript, Vegalite, and D3. He has worked on data engineering projects using Apache Airflow and developed GraphQL APIs. Bibek is familiar with C programming and ROS in robotics applications. He has worked on Computer Vision projects and is familiar with Git, Docker and Linux server. Bibek is always looking to expand his skills and knowledge."],
+    "context_set": ""
     },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
+    {"tag": "experience",
+    "patterns": [
+                "What work experience does Bibek have?",
+                "What is Bibek's experience level",
+                "Has Bibek had any jobs in the tech industry",
+                "Discuss Bibek's software development engineering experience",
+                "What has Bibek done in the software tech industry",
+                "Where has Bibek worked previously",
+                "Where does Bibek work",
+                "Where has Bibek been employed",
+                "Have you had any software tech related jobs",
+                "Who is Bibek's current employer?",
+                "Is Bibek employed?",
+                "Employment status",
+                "Does Bibek have a job?",
+                "Talk about Bibek's past employement"
+                ],
+    "responses": ["Bibek has a diverse background in both technical and educational fields. As a research intern at the Robust Intelligence & Robotics Lab at KAIST, he worked on developing a real-time 6D Pose Estimation and Scene Graph Generation framework for robotic manipulation task. He also gained experience as a backend developer intern at Bisonai, where he built data pipelines or DAGs and implemented backend APIs. Bibek also has experience in data visualization, having worked as an intern at the Interactive Computing Lab at KAIST, where he created course material for a Data Visualization class. Finally, he has experience as a high school teacher assistant, where he conducted tutorial lectures and helped students with coursework in Chemistry, Physics, Mathematics, and Biology."],
+    "context_set": ""
+    },
+    {"tag": "education",
+    "patterns": [
+                "What is Bibek's educational background?",
+                "Where did Bibek complete his higher education?",
+                "What degree is Bibek pursuing?",
+                "What was Bibek's major in university?",
+                "What was Bibek's previous education experience?",
+                "Where did Bibek attend school for his secondary education?",
+                "What does Bibek study and where does he go to school?",
+                "Where is Bibek studying for his degree?",
+                "Talk about Bibek's education",
+                "What academic program is Bibek in",
+                "Where does Bibek go for university",
+                "Education"
+                ],
+    "responses": ["Bibek is currently pursuing a Bachelor of Electrical Engineering and Computer Science at KAIST in Daejeon, South Korea. Prior to that, he completed his GCE A Levels from British Model College in Kathmandu, Nepal. He also attended Swarnim School and Khimti Project School in Nepal for grades 8-10 and Nursery-8, respectively. So, that's a brief rundown of Bibek's education history."],
+    "context_set": ""
+    },
+    {"tag": "RIRO-lab-intern",
+    "patterns": [
+                "What was Bibek's role in RIRO lab?",
+                "When did Bibek work as an intern at RIRO lab?",
+                "What was the focus of Bibek's project at RIRO lab?",
+                "What was Bibek's contribution to RIRO lab's research?",
+                "Can you tell me about Bibek's work in the RIRO lab?",
+                "What was the outcome of Bibek's project at RIRO lab?",
+                "What techniques did Bibek use in his RIRO lab internship?",
+                "What was Bibek's project about in RIRO lab?"
+                ],
+    "responses": ["Bibek was a Researcher Intern at Robust Intelligence & Robotics Lab, KAIST from July to December 2022. He worked on developing a combined framework for real-time 6D Pose Estimation and Scene Graph Generation in Robotic Manipulation Task. Bibek used Cosypose for 6D pose estimation and Neural Motif for Scene Graph Generation and performed experiments on custom cup datasets. He estimated 6D pose and generated dynamic scene graphs for a single moving camera setup, and developed a probabilistic multi-view object-pose estimation framework for a 2 fixed camera setup  that (i) associates multiple estimation results with scene graphs, (ii) combines pose distributions from single-view based estimators, and (iii) constructs a unified scene graph by predicting a unified pose distribution per object using MC dropout."],
+    "context_set": ""
+    },
+    {"tag": "bisonai-intern",
+    "patterns": [
+                "What was Bibek's role at Bisonai?",
+                "When did Bibek work at Bisonai?",
+                "What was Bibek's project at Bisonai?",
+                "What was Bibek's main responsibility at Bisonai?",
+                "What technologies did Bibek use at Bisonai?",
+                "What was the challenge that Bibek faced at Bisonai?",
+                "What was Bibek's contribution to Bisonai's ML based System Trading project?",
+                "What was the outcome of Bibek's project at Bisonai?"
+                ],
+    "responses": ["Bibek was a Backend Developer Intern at Bisonai in Seoul from January to February 2022. He worked on a project to build data pipelines using Airflow and stored the collected DeFi data from various sources in MongoDB Atlas. Bibek also implemented a backend API server using FastAPI and Strawberry to provide DeFi data for users interested in the data from multiple Decentralized Exchanges. The biggest challenge for him was to gain a deep understanding of raw DeFi data and their significance to Bisonai's ML based System Trading project."],
+    "context_set": ""
+  },
+  {"tag": "IC-lab-intern",
+  "patterns": [
+              "What was Bibek's role in Interactive Computing Lab?",
+              "When did Bibek work as an intern at Interactive Computing Lab?",
+              "What was the focus of Bibek's project at Interactive Computing Lab?",
+              "What kind of tutorial did Bibek make at Interactive Computing Lab?",
+              "What was the objective of Bibek's tutorial for beginners at Interactive Computing Lab?",
+              "What was the result of Bibek's project at Interactive Computing Lab?"
+              ],
+  "responses": [],
+  "context_set": "Bibek worked as a Project Intern at Interactive Computing Lab (KAIST) from July to August 2021. During this time, he created a simple tutorial for data pre-processing and visualizing plots with Vegalite and D3.js in an ObservableHQ notebook. The tutorial was designed for beginners to learn Data Visualization techniques using the Javascript track. You can find the tutorial on observablehq.com/@ic-dataviz?tab=notebooks."
+  },
+  {"tag": "BMC-TA",
+  "patterns": [
+              "Tell me about Bibek's experience as a Teaching Assistant",
+              "When did Bibek work as a TA at British Model College?",
+              "What subjects did Bibek teach at BMC?",
+              "What was Bibek's role as a TA at British Model College?",
+              "What type of support did Bibek provide to students at BMC?",
+              "Did Bibek give exam tips to students at British Model College?",
+              "Did Bibek offer college application advice to students at BMC?",
+              "What was Bibek's duration of work as a TA at British Model College?"
+              ],
+  "responses": ["Bibek worked as a Teaching Assistant at British Model College (BMC) from July, 2017 to October, 2017 and from February, 2018 to May, 2018. He conducted tutorial lectures and helped students understand the course material in subjects like Chemistry, Physics, Mathematics, and Biology. He also provided counseling to students, giving examination tips and suggestions for college applications."],
+  "context_set": ""
+  },
+  {"tag": "achievements",
+  "patterns": [
+              "What awards has Bibek won?",
+              "Tell me about Bibek's achievements in education.",
+              "What is Bibek's highest academic achievement?",
+              "Has Bibek won any awards for his leadership skills?",
+              "What notable accomplishments has Bibek achieved in school?",
+              "Has Bibek been recognized for his performance in science?",
+              "What was Bibek's best performance in an academic competition?"
+              ],
+  "responses": ["Bibek has achieved several notable accomplishments in his academic career, including winning the Social Innovation Award in the SDG Hack 11, Tsinghua Global Summer School 2021 for his project on AI solving education accessibility problems in rural areas. He is a Common Purpose Alumni and received the badge 'Inclusive Leadership 2021'. Bibek secured the highest mark in Nepal for AS Level Chemistry in the Nov, 2016 examination series. He also bagged second place in the Quiz in the Budhanilkantha Inter-School Olympiad, 2016. Bibek was third in the Cassini Scientist For a Day Contest, 2017 and he was awarded as the best student of the 2015/2017 batch in British Model College."],
+  "context_set": ""
+  },
+  {"tag": "kaist-activities",
+  "patterns": [
+              "What is Bibek's connection with KAIST?",
+              "What events has Bibek been a part of at KAIST?",
+              "What awards has Bibek received while at KAIST?",
+              "What is Bibek's role in the KAIST community?",
+              "What is Bibek's involvement with international students at KAIST?",
+              "Can you tell me about Bibek's contributions to KAIST?"
+              ],
+  "responses": ["Bibek has been an active member of the KAIST community, taking on various roles and participating in different events and programs. He was a candidate for the 2019-Winter Alma Mater visiting program and conducted a KAIST info session at his high school. He won the Excellence Award in the 2020 Happy KAIST UCC Contest, and his paper won the Insightful award in the 2020 online Public Relations strategy contest. He also placed second in the writing contest 'What is it like studying at KAIST?' organized by the KAIST Admission Office. Bibek served as the International Community Representative of Nepal for Spring 2020, Spring 2021, Fall 2021, Spring 2022, and Fall 2022 and was an online mentor for new international students in Fall 2020, Spring 2021, Fall 2021, and Spring 2022. He has completed 127 credits and you can find a list of courses taken each semester in his course records."],
+  "context_set": ""
+  },
+  {"tag": "portfolio",
+  "patterns": [
+              "Can you show me Bibek's portfolio?",
+              "What projects has Bibek completed?",
+              "What is included in Bibek's portfolio?",
+              "What are some examples of Bibek's work?",
+              "What is a summary of Bibek's projects?"
+              ],
+  "responses": ["Bibek has a diverse portfolio of projects that showcases his skills and expertise. Some of his most notable projects include a Crypto Price Predictor, a Paraphrase Generation tool, Smart Home, Data Cleanup using visualization, and a Lecture Summarizer. If you would like to know more about any of these projects, just let me know and I'll provide more details."],
+  "context_set": ""
+  },
+  {"tag": "crypto-project",
+  "patterns": [
+              "What was the purpose of Bibek's crypto price predictor project?",
+              "What was the focus of Bibek's crypto price predictor project?",
+              "What forecasting models did Bibek experiment with in crypto price predictor?",
+              "What was the scope of Bibek's forecasting task in crypto price predictor?",
+              "What deep learning models did Bibek use for forecasting crypto price?",
+              "Did Bibek perform multivariate forecasting in crypto price predictor?",
+              "What tools did Bibek use for the crypto price predictor project?",
+              "Can you provide a link to Bibek's crypto price predictor project paper?",
+              "Can you share the GitHub link for Bibek's crypto price predictor project?"
+              ],
+  "responses": ["Bibek participated in a project that aimed to predict the future price of bitcoin using time-series forecasting and attention mechanisms. He contributed by experimenting with two deep learning-based forecasting models: a recurrent neural network-based (bidirectional LSTM) model and a convolutional neural network-based (Conv1D) model, both for the task of one-day forecasting. He also tried multivariate forecasting with both models. The project involved developing seven forecasting models, including deep neural networks and a Bayesian network-based model, with two forecasting tasks: one-day forecasting and long-sequence forecasting (up to 100 days). The tools used in the project were TensorFlow, Pandas, and Matplotlib. The project paper can be found at the link: https://tinyurl.com/cryptopredictor and the code is available on GitHub at https://github.com/bibekyess/AI_practice/blob/main/Killionaire.ipynb."],
+  "context_set": ""
+  },
+  {"tag": "paraphrase-generation-project",
+  "patterns": [
+              "What did Bibek work on in the paraphrase-generation project?",
+              "What was Bibek's role in the Quality Controlled Paraphrase Generation project?",
+              "What was the main focus of Bibek's work on paraphrase generation?",
+              "Tell me about Bibek's project on Quality Controlled Paraphrase Generation",
+              "What tools did Bibek use in the paraphrase generation project",
+              "Can you provide a brief overview of Bibek's work on paraphrase generation?",
+              "What improvements did Bibek try in the paraphrase generation project?",
+              "What was the outcome of Bibek's work on paraphrase generation?"
+              ],
+  "responses": ["Bibek worked on replicating the paper 'Quality Controlled Paraphrase Generation' by Bandel et al. The main focus of his work was to find ways to improve the existing model. He evaluated the significance of the Quality Predictor model by conducting experiments with and without it. He also implemented multilingual support for the Korean dataset. Furthermore, Bibek developed an end-to-end inference pipeline for paraphrasing. He used Pytorch, Matplotlib, transformers, and Huggingface models for his work. The replicated paper and the corresponding code can be found at the following links: Replicated Paper Link: https://tinyurl.com/qcpg-replication and GitHub Link: https://github.com/bibekyess/QCPG."],
+  "context_set": ""
+  },
+  {"tag": "smart-home-project",
+  "patterns": ["What was the goal of Bibek's smart home project?",
+               "What was Bibek's role in the smart home project?",
+               "What tools did Bibek use for the smart home project?",
+               "Can you provide a demo of the smart home project?",
+               "Is there a link to the code for the smart home project?",
+               "Tell me more about Bibek's involvement in the smart home security project"
+              ],
+  "responses": ["Bibek participated in a project aimed at detecting intruders and notify the house owner. He was responsible for setting up the hardware and managing the Node-RED workflow, connecting each process to Telegram bot for an automated response. The tools used for this project were Node-RED. You can find a demo video of the project on YouTube: https://www.youtube.com/watch?v=YhccA0mm2YA, and the code is available on GitHub: https://github.com/bibekyess/HomeSec."],
+  "context_set": ""
+  },
+  {"tag": "data-cleanup-project",
+  "patterns": [
+              "What was Bibek's role in the data cleanup project?",
+              "What tools did Bibek use in the data visualization project?",
+              "Can you provide a demo video of Bibek's data visualization project?",
+              "What was the data visualization project about?",
+              "Can you show me the code for Bibek's data visualization project?",
+              "What was the purpose of the data cleanup project?",
+              "What did Bibek contribute in the data cleanup project?",
+              "What was the objective of Bibek's data visualization project?",
+              "How was the data pre-processed in the data cleanup project?"
+              ],
+  "responses": ["Bibek was part of a data cleanup project where he contributed to data visualization and webpage design. He used tools like Python, Plotly, Pandas, Flask, Dash, and Heroku for the project. A demo video of the project can be found at the link: https://tinyurl.com/data-anamoly-filter. The code for the project is available on GitHub at https://github.com/bibekyess/data-viz-project. The link for the project live website is https://data-anamoly-filter.onrender.com. The objective of the project was to clean up the data and avoid the use of anomalies in downstream tasks."],
+  "context_set": ""
+  },
+  {"tag": "lecture-summarizer-project",
+  "patterns": [
+              "What was Bibek's role in the Lecture Summarizer Project?",
+              "Did Bibek contribute to the development part of the Lecture Summarizer Project?",
+              "What documents did Bibek help create for the Lecture Summarizer Project?",
+              "What were Bibek's responsibilities in the Lecture Summarizer Project?",
+              "What tools did Bibek use in the Lecture Summarizer Project?",
+              "What was the presentation link for the Lecture Summarizer Project?",
+              "Where is the GitHub link for the Lecture Summarizer Project?"
+              ],
+  "responses": ["Bibek played a role in creating Project Planning & Management Document (PPMD), Software Architecture Document (SAD) and System Testing Document, where around 80% of the part in these documents was done by him. He wasn't explicitly involved in the development part, which was done by three other team members. Bibek helped resolve two issues in the project, one was converting the text to PDF and the other was managing dependencies using conda and updating the README. Tools used included Django, React.js, NLP (Rule-based), Git, Notion, and Figma. The presentation link is https://tinyurl.com/lecsum-eosp and the GitHub link is https://github.com/NishantNepal1/LecSum."],
+  "context_set": ""
+  },
+  {"tag": "decline",
+  "patterns": ["No", "Nah", "No thanks", "Not interested", "No, that's not what I need", "No, that's not what I'm looking for"],
+  "responses": [
+                "Okay, no problem. Let me know if there's anything else I can help you with.",
+                "Alright, if you change your mind, don't hesitate to reach out again.",
+                "Okay, if there's anything else I can assist with, please don't hesitate to ask.",
+                "Understood. If you have any other questions or requests, feel free to ask.",
+                "Got it. Just let me know if you need anything else."
+                ],
+  "context_set": ""
+  },
+  {"tag": "resume",
+  "patterns": [
+              "Can I have a look at Bibek's resume?",
+              "Do you have a copy of Bibek's resume?",
+              "Could you send me Bibek's resume please",
+              "Bibek's resume pdf file",
+              "I want to see Bibek's resume",
+              "Bibek's resume in PDF form",
+              "Get me Bibek's resume",
+              "Can you give me a new copy of Bibek's resume?"
+              ],
+  "responses": ["Here's a link to Bibek's resume for your convenience: https://kc-bibek.com.np/Bibek_CV.pdf"],
+  "context_set": ""
+  },
+  {"tag": "portfolio",
+  "patterns": [
+              "Can I take a look at Bibek's portfolio?",
+              "Can you provide a copy of Bibek's portfolio?",
+              "Bibek's portfolio pdf",
+              "Please show me Bibek's portfolio",
+              "I would like to see Bibek's portfolio",
+              "Can you give me Bibek's portfolio PDF",
+              "Where can I find Bibek's portfolio?"
+              ],
+  "responses": ["Here's a link to Bibek's portfolio for your convenience: https://kc-bibek.com.np/porfolio_bibek.pdf"],
+  "context_set": ""
+  },
+  {"tag": "contact",
+  "patterns": [
+              "What's the best way to get in touch with Bibek?",
+              "How can I contact Bibek?",
+              "Can you provide Bibek's contact information?",
+              "How can I reach out to Bibek?",
+              "What's the best method to communicate with Bibek?",
+              "Can you share Bibek's preferred method of contact?"
+              ],
+  "responses": ["The best way to get in touch with Mr. Bibek is by sending him an email at info@kc-bibek.com.np or by giving him a call/text at +82 (010) 4881-2332. Bibek is usually available during business hours and will do his best to respond to your inquiries as soon as possible."],
+  "context_set": ""
+  }
   ]
 }
