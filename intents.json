@@ -40,7 +40,8 @@
                 "What else can you show me?",
                 "What does this pertain to?",
                 "How can I receive assistance?",
-                "Can you provide information on?"
+                "Can you provide information on?",
+                "introduce yourself?"
                 ],
     "responses": [" I am Bibek-Bot! I am here to assis you in obtaining information about Bibek. Feel free to ask my any question about Bibek and I will make every effort to respond to all inquiries. Thank you!"],
     "context_set": ""
@@ -54,7 +55,9 @@
               "Why should we hire Bibek?",
               "What does Bibek bring to the table?",
               "What can Bibek offer?",
-              "Give a quick summary about Bibek"
+              "Give a quick summary about Bibek",
+              "biography?",
+              "Introduce Bibek?"
               ],
     "responses": ["Bibek stands for 'Boy Is Bold, Easygoing & Kind. He is passionate about learning new things and is interested in technology-focused activities that use AI tools and new technologies to solve any existing problems. Bibek is a hacker with experience in different technical stacks and is open to exploring new ones. In his free time, he enjoys playing sports and listening to purpose-driven startup stories and political activities. Bibek is a senior undergraduate in KAIST and double majoring in Electrical Engineering and Computer Science."],
     "context_set": ""
@@ -75,7 +78,8 @@
                 "What skillset does Bibek have",
                 "What tech does Bibek use",
                 "Describe Bibek's technical abilities",
-                "Python, JavaScript, C"
+                "Python, JavaScript, C",
+                "skills?"
               ],
     "responses": ["Bibek is a tech-savvy guy who is well-versed in many tools and technologies. He is proficient in Python, including popular libraries like Pytorch, FastAPI and PySpark. He also knows web development and data visualization using JavaScript, Vegalite, and D3. He has worked on data engineering projects using Apache Airflow and developed GraphQL APIs. Bibek is familiar with C programming and ROS in robotics applications. He has worked on Computer Vision projects and is familiar with Git, Docker and Linux server. Bibek is always looking to expand his skills and knowledge."],
     "context_set": ""
@@ -95,7 +99,8 @@
                 "Is Bibek employed?",
                 "Employment status",
                 "Does Bibek have a job?",
-                "Talk about Bibek's past employement"
+                "Talk about Bibek's past employement",
+                "experience?"
                 ],
     "responses": ["Bibek has a diverse background in both technical and educational fields. As a research intern at the Robust Intelligence & Robotics Lab at KAIST, he worked on developing a real-time 6D Pose Estimation and Scene Graph Generation framework for robotic manipulation task. He also gained experience as a backend developer intern at Bisonai, where he built data pipelines or DAGs and implemented backend APIs. Bibek also has experience in data visualization, having worked as an intern at the Interactive Computing Lab at KAIST, where he created course material for a Data Visualization class. Finally, he has experience as a high school teacher assistant, where he conducted tutorial lectures and helped students with coursework in Chemistry, Physics, Mathematics, and Biology."],
     "context_set": ""
@@ -180,7 +185,8 @@
               "Has Bibek won any awards for his leadership skills?",
               "What notable accomplishments has Bibek achieved in school?",
               "Has Bibek been recognized for his performance in science?",
-              "What was Bibek's best performance in an academic competition?"
+              "What was Bibek's best performance in an academic competition?",
+              "Achievements?"
               ],
   "responses": ["Bibek has achieved several notable accomplishments in his academic career, including winning the Social Innovation Award in the SDG Hack 11, Tsinghua Global Summer School 2021 for his project on AI solving education accessibility problems in rural areas. He is a Common Purpose Alumni and received the badge 'Inclusive Leadership 2021'. Bibek secured the highest mark in Nepal for AS Level Chemistry in the Nov, 2016 examination series. He also bagged second place in the Quiz in the Budhanilkantha Inter-School Olympiad, 2016. Bibek was third in the Cassini Scientist For a Day Contest, 2017 and he was awarded as the best student of the 2015/2017 batch in British Model College."],
   "context_set": ""
@@ -192,18 +198,21 @@
               "What awards has Bibek received while at KAIST?",
               "What is Bibek's role in the KAIST community?",
               "What is Bibek's involvement with international students at KAIST?",
-              "Can you tell me about Bibek's contributions to KAIST?"
+              "Can you tell me about Bibek's contributions to KAIST?",
+              "KAIST activities"
               ],
   "responses": ["Bibek has been an active member of the KAIST community, taking on various roles and participating in different events and programs. He was a candidate for the 2019-Winter Alma Mater visiting program and conducted a KAIST info session at his high school. He won the Excellence Award in the 2020 Happy KAIST UCC Contest, and his paper won the Insightful award in the 2020 online Public Relations strategy contest. He also placed second in the writing contest 'What is it like studying at KAIST?' organized by the KAIST Admission Office. Bibek served as the International Community Representative of Nepal for Spring 2020, Spring 2021, Fall 2021, Spring 2022, and Fall 2022 and was an online mentor for new international students in Fall 2020, Spring 2021, Fall 2021, and Spring 2022. He has completed 127 credits and you can find a list of courses taken each semester in his course records."],
   "context_set": ""
   },
   {"tag": "portfolio",
   "patterns": [
+              "Have Bibek done any projects?",
               "Can you show me Bibek's portfolio?",
               "What projects has Bibek completed?",
               "What is included in Bibek's portfolio?",
               "What are some examples of Bibek's work?",
-              "What is a summary of Bibek's projects?"
+              "What is a summary of Bibek's projects?",
+              "Projects?"
               ],
   "responses": ["Bibek has a diverse portfolio of projects that showcases his skills and expertise. Some of his most notable projects include a Crypto Price Predictor, a Paraphrase Generation tool, Smart Home, Data Cleanup using visualization, and a Lecture Summarizer. If you would like to know more about any of these projects, just let me know and I'll provide more details."],
   "context_set": ""

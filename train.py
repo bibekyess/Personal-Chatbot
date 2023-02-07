@@ -57,12 +57,16 @@ num_epochs = 1000
 batch_size = 32
 learning_rate = 0.001
 input_size = len(X_train[0])
-hidden_size = 16
+hidden_size = 64
 output_size = len(tags)
 print(input_size, output_size)
 
 
 class ChatDataset(Dataset):
+    """
+    Creates PyTorch dataset to automatically iterate and do batch training
+    """
+
     def __init__(self):
         self.n_samples = len(X_train)
         self.x_data = X_train
