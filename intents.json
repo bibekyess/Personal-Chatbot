@@ -18,15 +18,6 @@
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye", "Farewell", "Thank you for your assistance", "That will be all for now, thank you", "Well done, we will be in touch again soon", "Take care", "Goodnight!", "Have a great day", "It was a pleasure chatting with you", "Time for me to go"],
-      "responses": [
-        "Thank you for using BibekBOT. It was my pleasure to assist. If you have any further inquiries or would like to learn more about his projects, please do not hesitate to reach out to Bibek directly.",
-        "Goodbye! I appreciate the opportunity to assist you. For any future questions or inquiries, please feel free to directly reach out to Bibek.",
-        "It was a pleasure assisting you today. Thank you for your time and consideration. For any further information, kindly reach out to Bibek directly."
-      ]
-    },
-    {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
@@ -43,7 +34,7 @@
                 "Can you provide information on?",
                 "introduce yourself?"
                 ],
-    "responses": [" I am Bibek-Bot! I am here to assis you in obtaining information about Bibek. Feel free to ask my any question about Bibek and I will make every effort to respond to all inquiries. Thank you!"],
+    "responses": [" I am Bibek-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask my any question about Bibek and I will make every effort to respond to all inquiries. Thank you!"],
     "context_set": ""
     },
     {"tag": "bio",
@@ -79,7 +70,8 @@
                 "What tech does Bibek use",
                 "Describe Bibek's technical abilities",
                 "Python, JavaScript, C",
-                "skills?"
+                "skills?",
+                "what are his skills?"
               ],
     "responses": ["Bibek is a tech-savvy guy who is well-versed in many tools and technologies. He is proficient in Python, including popular libraries like Pytorch, FastAPI and PySpark. He also knows web development and data visualization using JavaScript, Vegalite, and D3. He has worked on data engineering projects using Apache Airflow and developed GraphQL APIs. Bibek is familiar with C programming and ROS in robotics applications. He has worked on Computer Vision projects and is familiar with Git, Docker and Linux server. Bibek is always looking to expand his skills and knowledge."],
     "context_set": ""
@@ -94,13 +86,10 @@
                 "Where has Bibek worked previously",
                 "Where does Bibek work",
                 "Where has Bibek been employed",
-                "Have you had any software tech related jobs",
-                "Who is Bibek's current employer?",
-                "Is Bibek employed?",
                 "Employment status",
-                "Does Bibek have a job?",
                 "Talk about Bibek's past employement",
-                "experience?"
+                "experience?",
+                "what are his experiences?"
                 ],
     "responses": ["Bibek has a diverse background in both technical and educational fields. As a research intern at the Robust Intelligence & Robotics Lab at KAIST, he worked on developing a real-time 6D Pose Estimation and Scene Graph Generation framework for robotic manipulation task. He also gained experience as a backend developer intern at Bisonai, where he built data pipelines or DAGs and implemented backend APIs. Bibek also has experience in data visualization, having worked as an intern at the Interactive Computing Lab at KAIST, where he created course material for a Data Visualization class. Finally, he has experience as a high school teacher assistant, where he conducted tutorial lectures and helped students with coursework in Chemistry, Physics, Mathematics, and Biology."],
     "context_set": ""
@@ -212,7 +201,8 @@
               "What is included in Bibek's portfolio?",
               "What are some examples of Bibek's work?",
               "What is a summary of Bibek's projects?",
-              "Projects?"
+              "Projects?",
+              "What are his previous projects?"
               ],
   "responses": ["Bibek has a diverse portfolio of projects that showcases his skills and expertise. Some of his most notable projects include a Crypto Price Predictor, a Paraphrase Generation tool, Smart Home, Data Cleanup using visualization, and a Lecture Summarizer. If you would like to know more about any of these projects, just let me know and I'll provide more details."],
   "context_set": ""
@@ -286,7 +276,7 @@
   "context_set": ""
   },
   {"tag": "decline",
-  "patterns": ["No", "Nah", "No thanks", "Not interested", "No, that's not what I need", "No, that's not what I'm looking for"],
+  "patterns": ["No", "Nono", "Nah", "No thanks", "Not interested", "No, that's not what I need", "No, that's not what I'm looking for"],
   "responses": [
                 "Okay, no problem. Let me know if there's anything else I can help you with.",
                 "Alright, if you change your mind, don't hesitate to reach out again.",
@@ -333,6 +323,32 @@
               "Can you share Bibek's preferred method of contact?"
               ],
   "responses": ["The best way to get in touch with Mr. Bibek is by sending him an email at info@kc-bibek.com.np or by giving him a call/text at +82 (010) 4881-2332. Bibek is usually available during business hours and will do his best to respond to your inquiries as soon as possible."],
+  "context_set": ""
+  },
+  {"tag": "exit",
+  "patterns": [
+              "How can I exit this?",
+              "How can I leave this chatbot?",
+              "quit the aplication?",
+              "I want to leave. How to leave here?",
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Farewell",
+              "Thank you for your assistance",
+              "That will be all for now, thank you",
+              "Well done, we will be in touch again soon",
+              "Take care",
+              "Goodnight!",
+              "Have a great day",
+              "It was a pleasure chatting with you",
+              "Time for me to go"
+              ],
+  "responses": [
+                "Thank you for using BibekBOT. It was my pleasure to assist. If you have any further inquiries or would like to learn more about his projects, please do not hesitate to reach out to Bibek directly. Please type 'quit' or 'q' to exit.",
+                "Goodbye! I appreciate the opportunity to assist you. For any future questions or inquiries, please feel free to directly reach out to Bibek. Please type 'quit' or 'q' to exit.",
+                "It was a pleasure assisting you today. Thank you for your time and consideration. For any further information, kindly reach out to Bibek directly. Please type 'quit' or 'q' to exit."
+                ],
   "context_set": ""
   }
   ]

@@ -47,14 +47,14 @@ while True:
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.8:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
         print(
-            f"{bot_name}: Sorry, I do not understand... Can you be more"
+            f"{bot_name}: Sorry, I do not understand... Can you be more "
             "specific on your question? You can ask about Bibek's skillset, "
-            "experiences, portfolio, education, achievements"
+            "experiences, portfolio, education, achievements "
             "and KAIST activities."
         )

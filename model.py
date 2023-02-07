@@ -8,7 +8,7 @@ class NeuralNet(nn.Module):
         self.l2 = nn.Linear(hidden_size, hidden_size)
         self.l3 = nn.Linear(hidden_size, num_classes)
         self.relu = nn.ReLU()
-        self.dropout = nn.Dropout(p=0.5)
+        self.dropout = nn.Dropout(p=0.3)
 
     def forward(self, x):
         out = self.l1(x)
@@ -18,5 +18,5 @@ class NeuralNet(nn.Module):
         out = self.relu(out)
         out = self.dropout(out)
         out = self.l3(out)
-        # no activation and no softmax at the end because crossentropy loss will apply itself # NoQA
+        # no activation and no softmax at the end
         return out

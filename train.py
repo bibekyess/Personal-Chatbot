@@ -26,6 +26,20 @@ for intent in intents["intents"]:
         all_words.extend(w)
         # add to xy pair
         xy.append((w, tag))
+        AUGMENT = False
+        if "Bibek" in pattern:
+            pattern = pattern.replace("Bibek", "he")
+            AUGMENT = True
+        elif "bibek" in pattern:
+            pattern = pattern.replace("bibek", "he")
+            AUGMENT = True
+        elif "BIBEK" in pattern:
+            pattern = pattern.replace("BIBEK", "he")
+            AUGMENT = True
+        if AUGMENT:
+            w = tokenize(pattern)
+            all_words.extend(w)
+            xy.append((w, tag))
 
 # stem and lower each word
 ignore_words = ["?", ".", "!"]
@@ -58,6 +72,8 @@ batch_size = 32
 learning_rate = 0.001
 input_size = len(X_train[0])
 hidden_size = 64
+num_heads = 8
+num_layer = 6
 output_size = len(tags)
 print(input_size, output_size)
 
