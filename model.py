@@ -8,7 +8,7 @@ class NeuralNet(nn.Module):
         self.l2 = nn.Linear(hidden_size, hidden_size)
         self.l3 = nn.Linear(hidden_size, num_classes)
         self.relu = nn.ReLU()
-        self.dropout = nn.Dropout(p=0.3)
+        self.dropout = nn.Dropout(p=0.5)
 
     def forward(self, x):
         out = self.l1(x)
