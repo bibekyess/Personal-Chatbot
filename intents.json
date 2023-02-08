@@ -202,9 +202,16 @@
               "What are some examples of Bibek's work?",
               "What is a summary of Bibek's projects?",
               "Projects?",
-              "What are his previous projects?"
+              "What are his previous projects?",
+              "Can I take a look at Bibek's portfolio?",
+              "Can you provide a copy of Bibek's portfolio?",
+              "Bibek's portfolio pdf",
+              "Please show me Bibek's portfolio",
+              "I would like to see Bibek's portfolio",
+              "Can you give me Bibek's portfolio PDF",
+              "Where can I find Bibek's portfolio?"
               ],
-  "responses": ["Bibek has a diverse portfolio of projects that showcases his skills and expertise. Some of his most notable projects include a Crypto Price Predictor, a Paraphrase Generation tool, Smart Home, Data Cleanup using visualization, and a Lecture Summarizer. If you would like to know more about any of these projects, just let me know and I'll provide more details."],
+  "responses": ["Bibek has a diverse portfolio of projects that showcases his skills and expertise. Some of his most notable projects include a Crypto Price Predictor, a Paraphrase Generation tool, Smart Home, Data Cleanup using visualization, and a Lecture Summarizer. If you would like to know more about any of these projects, just let me know and I'll provide more details. Here's a link to Bibek's portfolio for your convenience: https://kc-bibek.com.np/porfolio_bibek.pdf"],
   "context_set": ""
   },
   {"tag": "crypto-project",
@@ -298,19 +305,6 @@
               "Can you give me a new copy of Bibek's resume?"
               ],
   "responses": ["Here's a link to Bibek's resume for your convenience: https://kc-bibek.com.np/Bibek_CV.pdf"],
-  "context_set": ""
-  },
-  {"tag": "portfolio",
-  "patterns": [
-              "Can I take a look at Bibek's portfolio?",
-              "Can you provide a copy of Bibek's portfolio?",
-              "Bibek's portfolio pdf",
-              "Please show me Bibek's portfolio",
-              "I would like to see Bibek's portfolio",
-              "Can you give me Bibek's portfolio PDF",
-              "Where can I find Bibek's portfolio?"
-              ],
-  "responses": ["Here's a link to Bibek's portfolio for your convenience: https://kc-bibek.com.np/porfolio_bibek.pdf"],
   "context_set": ""
   },
   {"tag": "contact",
