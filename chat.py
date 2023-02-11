@@ -35,7 +35,7 @@ bot_name = "B-BOT"
 def generate_response(sentence):
     # sentence = input("You: ")
     sentence = correct_typos(sentence)
-
+    # print(sentence)
     if sentence.lower() == "quit" or sentence.lower() == "q":
         # Needs to quit
         pass
@@ -62,6 +62,14 @@ def generate_response(sentence):
             "specific on your question? You can ask about Bibek's skillset, "
             "experiences, portfolio, education, achievements "
             "and KAIST activities."
+            "These are some sample questions: "
+            "(I) Tell me about Bibek,\n"
+            "(II) What skills does he have?,\n"
+            "(III) What work experience does Bibek have?,\n"
+            "(IV) What is Bibek's educational background?,\n"
+            "(V) What awards has he won?,\n"
+            "(VI) What projects has he completed? &\n"
+            "(VII) How can I contact Bibek?"
         )
 
 
