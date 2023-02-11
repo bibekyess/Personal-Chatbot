@@ -1,0 +1,6 @@
+nltk
+pyspellchecker
+streamlit-chat
+torch
+torchaudio
+torchvision
