@@ -9,7 +9,7 @@
         "Hello Chatbot"
       ],
       "responses": [
-        "Hello 👋! Thanks for visiting!\n I am Bibek-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask me any questions about Bibek. These are some sample questions:\n (I) Tell me about Bibek.\n (II) What skills does Bibek have?\n (III) What work experience does Bibek have?\n (IV) What is Bibek's educational background?\n (V) What awards has Bibek won?\n (VI) What projects have Bibek completed? &\n (VII) How can I contact Bibek?"
+        "Hello 👋! Thanks for visiting!\n I am B-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask me any questions about Bibek. These are some sample questions:\n (I) Tell me about Bibek.\n (II) What skills does Bibek have?\n (III) What work experience does Bibek have?\n (IV) What is Bibek's educational background?\n (V) What awards has Bibek won?\n (VI) What projects have Bibek completed? &\n (VII) How can I contact Bibek?"
       ]
     },
     {
@@ -41,7 +41,7 @@
                 "Can you provide information on?",
                 "introduce yourself?"
                 ],
-    "responses": ["I am Bibek-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask me any questions about Bibek and I will make every effort to respond to all inquiries. These are some sample questions:\n (I) Tell me about Bibek.\n (II) What skills does Bibek have?\n (III) What work experience does Bibek have?\n (IV) What is Bibek's educational background?\n (V) What awards has Bibek won?\n (VI) What projects have Bibek completed? &\n (VII) How can I contact Bibek?"],
+    "responses": ["I am B-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask me any questions about Bibek and I will make every effort to respond to all inquiries. These are some sample questions:\n (I) Tell me about Bibek.\n (II) What skills does Bibek have?\n (III) What work experience does Bibek have?\n (IV) What is Bibek's educational background?\n (V) What awards has Bibek won?\n (VI) What projects have Bibek completed? &\n (VII) How can I contact Bibek?"],
     "context_set": ""
     },
     {"tag": "bio",
@@ -348,7 +348,7 @@
               "Time for me to go"
               ],
   "responses": [
-                "Thank you for using BibekBOT. It was my pleasure to assist. If you have any further inquiries or would like to learn more about his projects, please do not hesitate to reach out to Bibek directly.",
+                "Thank you for using B-Bot. It was my pleasure to assist. If you have any further inquiries or would like to learn more about his projects, please do not hesitate to reach out to Bibek directly.",
                 "Goodbye! I appreciate the opportunity to assist you. For any future questions or inquiries, please feel free to directly reach out to Bibek.",
                 "It was a pleasure assisting you today. Thank you for your time and consideration. For any further information, kindly reach out to Bibek directly."
                 ],

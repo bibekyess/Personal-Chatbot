@@ -36,7 +36,7 @@ streamlit run b_bot.py
 ```
 
 # For training:
-```shell
+```console
 python train.py
 ```
 This saves the checkpoint in 'data.pth' file. Then run the b_bot app
@@ -45,5 +45,5 @@ streamlit run b_bot.py
 ```
 
 Reference:
-I referred  for simple implementation of contextual chatbot with interactions from terminals.
-I referred https://github.com/AI-Yash/st-chat for the beautiful chatbot interface.
+I referred to https://github.com/patrickloeber/pytorch-chatbot for simple implementation of contextual chatbot with interactions from terminals.
+I referred to https://github.com/AI-Yash/st-chat for the beautiful chatbot interface.

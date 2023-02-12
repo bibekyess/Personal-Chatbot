@@ -26,7 +26,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "B-BOT"
+bot_name = "B-Bot"
 # print(
 #     "Hello, I am B-BOT, personal ChatBOT of Mr. Bibek. Let's chat! (type 'quit' or 'q' to exit)"  # NoQA
 # )
