@@ -58,7 +58,7 @@ def generate_response(sentence):
                 return f"{bot_name}: {random.choice(intent['responses'])}"
     else:
         return (
-            f"{bot_name}: Sorry, I do not understand... Can you be more "
+            f"{bot_name}: Sorry, I didn't understand... Can you be more "
             "specific on your question? You can ask about Bibek's skillset, "
             "experiences, portfolio, education, achievements "
             "and KAIST activities."

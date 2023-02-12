@@ -9,7 +9,7 @@
         "Hello Chatbot"
       ],
       "responses": [
-        "Hello 👋! Thanks for visiting!\n I am Bibek-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask my any question about Bibek. These are some sample questions:\n (I) Tell me about Bibek,\n (II) What skills does Bibek have?,\n (III) What work experience does Bibek have?,\n (IV) What is Bibek's educational background?,\n (V) What awards has Bibek won?,\n (VI) What projects has Bibek completed? &\n (VII) How can I contact Bibek?"
+        "Hello 👋! Thanks for visiting!\n I am Bibek-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask me any questions about Bibek. These are some sample questions:\n (I) Tell me about Bibek.\n (II) What skills does Bibek have?\n (III) What work experience does Bibek have?\n (IV) What is Bibek's educational background?\n (V) What awards has Bibek won?\n (VI) What projects have Bibek completed? &\n (VII) How can I contact Bibek?"
       ]
     },
     {
@@ -41,7 +41,7 @@
                 "Can you provide information on?",
                 "introduce yourself?"
                 ],
-    "responses": ["I am Bibek-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask me any question about Bibek and I will make every effort to respond to all inquiries. These are some sample questions:\n (I) Tell me about Bibek,\n (II) What skills does Bibek have?,\n (III) What work experience does Bibek have?,\n (IV) What is Bibek's educational background?,\n (V) What awards has Bibek won?,\n (VI) What projects has Bibek completed? &\n (VII) How can I contact Bibek?"],
+    "responses": ["I am Bibek-Bot! I am here to assist you in obtaining information about Bibek. Feel free to ask me any questions about Bibek and I will make every effort to respond to all inquiries. These are some sample questions:\n (I) Tell me about Bibek.\n (II) What skills does Bibek have?\n (III) What work experience does Bibek have?\n (IV) What is Bibek's educational background?\n (V) What awards has Bibek won?\n (VI) What projects have Bibek completed? &\n (VII) How can I contact Bibek?"],
     "context_set": ""
     },
     {"tag": "bio",
@@ -81,7 +81,7 @@
                 "skillsets?",
                 "what are his skills?"
               ],
-    "responses": ["Bibek is a tech-savvy guy who is well-versed in many tools and technologies. He is proficient in Python, including popular libraries like Pytorch, FastAPI and PySpark. He also knows web development and data visualization using JavaScript, Vegalite, and D3. He has worked on data engineering projects using Apache Airflow and developed GraphQL APIs. Bibek is familiar with C programming and ROS in robotics applications. He has worked on Computer Vision projects and is familiar with Git, Docker and Linux server. Bibek is always looking to expand his skills and knowledge."],
+    "responses": ["Bibek is a tech-savvy guy who is well-versed in many tools and technologies. He is proficient in Python, including popular libraries like Pytorch, FastAPI, and PySpark. He also knows web development and data visualization using JavaScript, Vegalite, and D3. He has worked on data engineering projects using Apache Airflow and developed GraphQL APIs. Bibek is familiar with C programming and ROS in robotics applications. He has worked on Computer Vision projects and is familiar with Git, Docker, and Linux servers. Bibek is always looking to expand his skills and knowledge."],
     "context_set": ""
     },
     {"tag": "experience",
@@ -95,11 +95,11 @@
                 "Where does Bibek work",
                 "Where has Bibek been employed",
                 "Employment status",
-                "Talk about Bibek's past employement",
+                "Talk about Bibek's past employment",
                 "experience?",
                 "what are his experiences?"
                 ],
-    "responses": ["Bibek has a diverse background in both technical and educational fields. As a research intern at the Robust Intelligence & Robotics (RIRO) Lab at KAIST, he worked on developing a real-time 6D Pose Estimation and Scene Graph Generation framework for robotic manipulation task. He also gained experience as a backend developer intern at Bisonai, where he built data pipelines or DAGs and implemented backend APIs. Bibek also has experience in data visualization, having worked as an intern at the Interactive Computing (IC) Lab at KAIST, where he created course material for a Data Visualization class. Finally, he has experience as a high school teacher assistant in British Model College (BMC), where he conducted tutorial lectures and helped students with coursework in Chemistry, Physics, Mathematics, and Biology. If you want to know more about his conributions in RIRO, Bisonai, IC or BMC, let me know?"],
+    "responses": ["Bibek has a diverse background in both technical and educational fields. As a research intern at the Robust Intelligence & Robotics (RIRO) Lab at KAIST, he worked on developing a real-time 6D Pose Estimation and Scene Graph Generation framework for robotic manipulation tasks. He also gained experience as a backend developer intern at Bisonai, where he built data pipelines or DAGs and implemented backend APIs. Bibek also has experience in data visualization, having worked as an intern at the Interactive Computing (IC) Lab at KAIST, where he created course material for a Data Visualization class. Finally, he has experience as a high school teacher assistant at British Model College (BMC), where he conducted tutorial lectures and helped students with coursework in Chemistry, Physics, Mathematics, and Biology. If you want to know more about his contributions in RIRO, Bisonai, IC, or BMC, let me know?"],
     "context_set": ""
     },
     {"tag": "education",
@@ -114,24 +114,24 @@
                 "Where is Bibek studying for his degree?",
                 "Talk about Bibek's education",
                 "What academic program is Bibek in",
-                "Where does Bibek go for university",
+                "Where does Bibek go to university",
                 "Education"
                 ],
-    "responses": ["Bibek is currently pursuing a Bachelor of Electrical Engineering and Computer Science at KAIST in Daejeon, South Korea. Prior to that, he completed his GCE A Levels from British Model College in Kathmandu, Nepal. He also attended Swarnim School and Khimti Project School in Nepal for grades 8-10 and Nursery-8, respectively. So, that's a brief rundown of Bibek's education history."],
+    "responses": ["Bibek is currently pursuing a Bachelor of Electrical Engineering and Computer Science at KAIST in Daejeon, South Korea. Before that, he completed his GCE A Levels from British Model College in Kathmandu, Nepal. He also attended Swarnim School and Khimti Project School in Nepal for grades 8-10 and Nursery-8, respectively. So, that's a brief rundown of Bibek's education history."],
     "context_set": ""
     },
     {"tag": "RIRO-lab-intern",
     "patterns": [
-                "What was Bibek's role in RIRO lab?",
+                "What was Bibek's role in the RIRO lab?",
                 "When did Bibek work as an intern at RIRO lab?",
                 "What was the focus of Bibek's project at RIRO lab?",
                 "What was Bibek's contribution to RIRO lab's research?",
                 "Can you tell me about Bibek's work in the RIRO lab?",
                 "What was the outcome of Bibek's project at RIRO lab?",
                 "What techniques did Bibek use in his RIRO lab internship?",
-                "What was Bibek's project about in RIRO lab?"
+                "What was Bibek's project about in the RIRO lab?"
                 ],
-    "responses": ["Bibek was a Researcher Intern at Robust Intelligence & Robotics Lab, KAIST from July to December 2022. He worked on developing a combined framework for real-time 6D Pose Estimation and Scene Graph Generation in Robotic Manipulation Task. Bibek used Cosypose for 6D pose estimation and Neural Motif for Scene Graph Generation and performed experiments on custom cup datasets. He estimated 6D pose and generated dynamic scene graphs for a single moving camera setup, and developed a probabilistic multi-view object-pose estimation framework for a 2 fixed camera setup  that (i) associates multiple estimation results with scene graphs, (ii) combines pose distributions from single-view based estimators, and (iii) constructs a unified scene graph by predicting a unified pose distribution per object using MC dropout."],
+    "responses": ["Bibek was a Researcher Intern at Robust Intelligence & Robotics Lab, KAIST from July to December 2022. He worked on developing a combined framework for real-time 6D Pose Estimation and Scene Graph Generation in Robotic Manipulation Tasks. Bibek used Cosypose for 6D pose estimation and Neural Motif for Scene Graph Generation and performed experiments on custom cup datasets. He estimated 6D pose and generated dynamic scene graphs for a single moving camera setup, and developed a probabilistic multi-view object-pose estimation framework for a 2 fixed camera setup  that (i) associates multiple estimation results with scene graphs, (ii) combines pose distributions from single-view based estimators, and (iii) constructs a unified scene graph by predicting a unified pose distribution per object using MC dropout."],
     "context_set": ""
     },
     {"tag": "bisonai-intern",
@@ -142,10 +142,10 @@
                 "What was Bibek's main responsibility at Bisonai?",
                 "What technologies did Bibek use at Bisonai?",
                 "What was the challenge that Bibek faced at Bisonai?",
-                "What was Bibek's contribution to Bisonai's ML based System Trading project?",
+                "What was Bibek's contribution to Bisonai's ML-based System Trading project?",
                 "What was the outcome of Bibek's project at Bisonai?"
                 ],
-    "responses": ["Bibek was a Backend Developer Intern at Bisonai in Seoul from January to February 2022. He worked on a project to build data pipelines using Airflow and stored the collected DeFi data from various sources in MongoDB Atlas. Bibek also implemented a backend API server using FastAPI and Strawberry to provide DeFi data for users interested in the data from multiple Decentralized Exchanges. The biggest challenge for him was to gain a deep understanding of raw DeFi data and their significance to Bisonai's ML based System Trading project."],
+    "responses": ["Bibek was a Backend Developer Intern at Bisonai in Seoul from January to February 2022. He worked on a project to build data pipelines using Airflow and stored the collected DeFi data from various sources in MongoDB Atlas. Bibek also implemented a backend API server using FastAPI and Strawberry to provide DeFi data for users interested in the data from multiple Decentralized Exchanges. The biggest challenge for him was to gain a deep understanding of raw DeFi data and their significance to Bisonai's ML-based System Trading project."],
     "context_set": ""
   },
   {"tag": "IC-lab-intern",
@@ -171,7 +171,7 @@
               "Did Bibek offer college application advice to students at BMC?",
               "What was Bibek's duration of work as a TA at British Model College?"
               ],
-  "responses": ["Bibek worked as a Teaching Assistant at British Model College (BMC) from July, 2017 to October, 2017 and from February, 2018 to May, 2018. He conducted tutorial lectures and helped students understand the course material in subjects like Chemistry, Physics, Mathematics, and Biology. He also provided counseling to students, giving examination tips and suggestions for college applications."],
+  "responses": ["Bibek worked as a Teaching Assistant at British Model College (BMC) from July 2017 to October 2017 and from February 2018 to May 2018. He conducted tutorial lectures and helped students understand the course material in subjects like Chemistry, Physics, Mathematics, and Biology. He also provided counseling to students, giving examination tips and suggestions for college applications."],
   "context_set": ""
   },
   {"tag": "achievements",
@@ -185,20 +185,20 @@
               "What was Bibek's best performance in an academic competition?",
               "Achievements?"
               ],
-  "responses": ["Bibek has achieved several notable accomplishments in his academic career, including winning the Social Innovation Award in the SDG Hack 11, Tsinghua Global Summer School 2021 for his project on AI solving education accessibility problems in rural areas. He is a Common Purpose Alumni and received the badge 'Inclusive Leadership 2021'. Bibek secured the highest mark in Nepal for AS Level Chemistry in the Nov, 2016 examination series. He also bagged second place in the Quiz in the Budhanilkantha Inter-School Olympiad, 2016. Bibek was third in the Cassini Scientist For a Day Contest, 2017 and he was awarded as the best student of the 2015/2017 batch in British Model College."],
+  "responses": ["Bibek has achieved several notable accomplishments in his academic career, including winning the Social Innovation Award in the SDG Hack 11, Tsinghua Global Summer School 2021 for his project on AI solving education accessibility problems in rural areas. He is a Common Purpose Alumni and received the badge 'Inclusive Leadership 2021'. Bibek secured the highest mark in Nepal for AS Level Chemistry in the Nov 2016 examination series. He also bagged second place in the Quiz in the Budhanilkantha Inter-School Olympiad, 2016. Bibek was third in the Cassini Scientist For a Day Contest, 2017 and he was awarded as the best student of the 2015/2017 batch in British Model College."],
   "context_set": ""
   },
   {"tag": "kaist-activities",
   "patterns": [
               "What is Bibek's connection with KAIST?",
-              "What events has Bibek been a part of at KAIST?",
+              "What events have Bibek been a part of at KAIST?",
               "What awards has Bibek received while at KAIST?",
               "What is Bibek's role in the KAIST community?",
               "What is Bibek's involvement with international students at KAIST?",
               "Can you tell me about Bibek's contributions to KAIST?",
               "KAIST activities"
               ],
-  "responses": ["Bibek has been an active member of the KAIST community, taking on various roles and participating in different events and programs. He was a candidate for the 2019-Winter Alma Mater visiting program and conducted a KAIST info session at his high school. He won the Excellence Award in the 2020 Happy KAIST UCC Contest, and his paper won the Insightful award in the 2020 online Public Relations strategy contest. He also placed second in the writing contest 'What is it like studying at KAIST?' organized by the KAIST Admission Office. Bibek served as the International Community Representative of Nepal for Spring 2020, Spring 2021, Fall 2021, Spring 2022, and Fall 2022 and was an online mentor for new international students in Fall 2020, Spring 2021, Fall 2021, and Spring 2022. He has completed 127 credits and you can find a list of courses taken each semester in his course records."],
+  "responses": ["Bibek has been an active member of the KAIST community, taking on various roles and participating in different events and programs. He was a candidate for the 2019 Winter Alma Mater visiting program and conducted a KAIST info session at his high school. He won the Excellence Award in the 2020 Happy KAIST UCC Contest, and his paper won the Insightful award in the 2020 online Public Relations strategy contest. He also placed second in the writing contest 'What is it like studying at KAIST?' organized by the KAIST Admission Office. Bibek served as the International Community Representative of Nepal for Spring 2020, Spring 2021, Fall 2021, Spring 2022, and Fall 2022 and was an online mentor for new international students in Fall 2020, Spring 2021, Fall 2021, and Spring 2022. He has completed 127 credits and you can find a list of courses taken each semester at https://tinyurl.com/bibek-course-records."],
   "context_set": ""
   },
   {"tag": "portfolio",
@@ -259,7 +259,7 @@
                "Is there a link to the code for the smart home project?",
                "Tell me more about Bibek's involvement in the smart home security project"
               ],
-  "responses": ["Bibek participated in a project aimed at detecting intruders and notify the house owner. He was responsible for setting up the hardware and managing the Node-RED workflow, connecting each process to Telegram bot for an automated response. The tools used for this project were Node-RED. You can find a demo video of the project on YouTube: https://www.youtube.com/watch?v=YhccA0mm2YA, and the code is available on GitHub: https://github.com/bibekyess/HomeSec."],
+  "responses": ["Bibek participated in a project aimed at detecting intruders and notifying the house owner. He was responsible for setting up the hardware and managing the Node-RED workflow, connecting each process to the Telegram bot for an automated response. The tools used for this project were Node-RED. You can find a demo video of the project on YouTube: https://www.youtube.com/watch?v=YhccA0mm2YA and the code is available on GitHub: https://github.com/bibekyess/HomeSec."],
   "context_set": ""
   },
   {"tag": "data-cleanup-project",
@@ -270,11 +270,11 @@
               "What was the data visualization project about?",
               "Can you show me the code for Bibek's data visualization project?",
               "What was the purpose of the data cleanup project?",
-              "What did Bibek contribute in the data cleanup project?",
+              "What did Bibek contribute to the data cleanup project?",
               "What was the objective of Bibek's data visualization project?",
               "How was the data pre-processed in the data cleanup project?"
               ],
-  "responses": ["Bibek was part of a data cleanup project where he contributed to data visualization and webpage design. He used tools like Python, Plotly, Pandas, Flask, Dash, and Heroku for the project. A demo video of the project can be found at the link: https://tinyurl.com/data-anamoly-filter. The code for the project is available on GitHub at https://github.com/bibekyess/data-viz-project. The link for the project live website is https://data-anamoly-filter.onrender.com. The objective of the project was to clean up the data and avoid the use of anomalies in downstream tasks."],
+  "responses": ["Bibek was part of a data cleanup project where he contributed to data visualization and webpage design. He used tools like Python, Plotly, Pandas, Flask, Dash, and Heroku for the project. A demo video of the project can be found at the link: https://tinyurl.com/data-anamoly-filter. The code for the project is available on GitHub at https://github.com/bibekyess/data-viz-project. The link for the project's live website is https://data-anamoly-filter.onrender.com. The objective of the project was to clean up the data and avoid the use of anomalies in downstream tasks."],
   "context_set": ""
   },
   {"tag": "lecture-summarizer-project",
@@ -287,7 +287,7 @@
               "What was the presentation link for the Lecture Summarizer Project?",
               "Where is the GitHub link for the Lecture Summarizer Project?"
               ],
-  "responses": ["Bibek played a role in creating Project Planning & Management Document (PPMD), Software Architecture Document (SAD) and System Testing Document, where around 80% of the part in these documents was done by him. He wasn't explicitly involved in the development part, which was done by three other team members. Bibek helped resolve two issues in the project, one was converting the text to PDF and the other was managing dependencies using conda and updating the README. Tools used included Django, React.js, NLP (Rule-based), Git, Notion, and Figma. The presentation link is https://tinyurl.com/lecsum-eosp and the GitHub link is https://github.com/NishantNepal1/LecSum."],
+  "responses": ["Bibek played a role in creating Project Planning & Management Document (PPMD), Software Architecture Document (SAD), and System Testing Document, where around 80% of the part in these documents was done by him. He wasn't explicitly involved in the development part, which was done by three other team members. Bibek helped resolve two issues in the project, one was converting the text to PDF and the other was managing dependencies using Conda and updating the README. Tools used included Django, React.js, NLP (Rule-based), Git, Notion, and Figma. The presentation link is https://tinyurl.com/lecsum-eosp and the GitHub link is https://github.com/NishantNepal1/LecSum."],
   "context_set": ""
   },
   {"tag": "decline",
@@ -332,7 +332,7 @@
   "patterns": [
               "How can I exit this?",
               "How can I leave this chatbot?",
-              "quit the aplication?",
+              "quit the application?",
               "I want to leave. How to leave here?",
               "Bye",
               "See you later",
