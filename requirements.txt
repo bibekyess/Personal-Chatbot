@@ -1,6 +1,8 @@
+huggingface_hub
 nltk
 pyspellchecker
 streamlit-chat
 torch
 torchaudio
 torchvision
+transformers
