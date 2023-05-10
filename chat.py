@@ -26,10 +26,30 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "B-Bot"
+bot_name = "BGPT"
 # print(
 #     "Hello, I am B-BOT, personal ChatBOT of Mr. Bibek. Let's chat! (type 'quit' or 'q' to exit)"  # NoQA
 # )
+
+
+def generate_tag(sentence):
+    # sentence = input("You: ")
+    sentence = correct_typos(sentence)
+    # print(sentence)
+    if sentence.lower() == "quit" or sentence.lower() == "q":
+        # Needs to quit
+        pass
+
+    sentence = tokenize(sentence)
+    X = bag_of_words(sentence, all_words)
+    X = X.reshape(1, X.shape[0])
+    X = torch.from_numpy(X).to(device)
+
+    output = model(X)
+    _, predicted = torch.max(output, dim=1)
+
+    tag = tags[predicted.item()]
+    return tag
 
 
 def generate_response(sentence):
