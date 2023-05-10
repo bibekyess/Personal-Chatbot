@@ -4,6 +4,12 @@ from streamlit_chat import message
 from chat import generate_response
 
 st.title("B-Bot : Bibek's Personal Chatbot")
+
+# Extra information
+st.markdown("""
+    #### Click [here](https://huggingface.co/spaces/bibekyess/bgpt) to chat with generative-model based BGPT *[&#945;-version]*!""")
+
+
 # Storing the chat
 if "generated" not in st.session_state:
     st.session_state["generated"] = []
