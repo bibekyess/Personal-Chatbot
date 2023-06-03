@@ -57,7 +57,7 @@
               "biography?",
               "Introduce Bibek?"
               ],
-    "responses": ["Bibek stands for 'Boy Is Bold, Easygoing & Kind. He is passionate about learning new things and is interested in technology-focused activities that use AI tools and new technologies to solve any existing problems. Bibek is a hacker with experience in different technical stacks and is open to exploring new ones. In his free time, he enjoys playing sports and listening to purpose-driven startup stories and political activities. Bibek is a senior undergraduate in KAIST and double majoring in Electrical Engineering and Computer Science."],
+    "responses": ["Bibek is currently a senior undergraduate student in KAIST, double majoring in Electrical Engineering and Computer Science at KAIST. He is passionate about learning new things and is interested in technology-oriented activities that use new technologies like AI tools to solve any existing societal problems. With his 2 years of experience in diverse hands-on projects and his enthusiasm for continuous learning, he is always committed to pursuing new and challenging opportunities. In his free time, he enjoys playing sports and listening to purpose-driven startup stories and political activities."],
     "context_set": ""
     },
     {"tag": "skills",
@@ -81,7 +81,7 @@
                 "skillsets?",
                 "what are his skills?"
               ],
-    "responses": ["Bibek is a tech-savvy guy who is well-versed in many tools and technologies. He is proficient in Python, including popular libraries like Pytorch, FastAPI, and PySpark. He also knows web development and data visualization using JavaScript, Vegalite, and D3. He has worked on data engineering projects using Apache Airflow and developed GraphQL APIs. Bibek is familiar with C programming and ROS in robotics applications. He has worked on Computer Vision projects and is familiar with Git, Docker, and Linux servers. Bibek is always looking to expand his skills and knowledge."],
+    "responses": ["Bibek is a tech-savvy guy who is well-versed in many tools and technologies. He is proficient in Python, including popular libraries like Pytorch, FastAPI, and PySpark. He also knows web development and data visualization using JavaScript, Vegalite, and D3. He has worked on data engineering projects using Apache Airflow and developed GraphQL APIs. Bibek is familiar with C programming and ROS in robotics applications. He has worked on Computer Vision, Natural Language processing and other AI projects and is familiar with Git, Docker, and Linux servers. Bibek is a team player and is always looking to expand his skills and knowledge."],
     "context_set": ""
     },
     {"tag": "experience",
@@ -185,7 +185,7 @@
               "What was Bibek's best performance in an academic competition?",
               "Achievements?"
               ],
-  "responses": ["Bibek has achieved several notable accomplishments in his academic career, including winning the Social Innovation Award in the SDG Hack 11, Tsinghua Global Summer School 2021 for his project on AI solving education accessibility problems in rural areas. He is a Common Purpose Alumni and received the badge 'Inclusive Leadership 2021'. Bibek secured the highest mark in Nepal for AS Level Chemistry in the Nov 2016 examination series. He also bagged second place in the Quiz in the Budhanilkantha Inter-School Olympiad, 2016. Bibek was third in the Cassini Scientist For a Day Contest, 2017 and he was awarded as the best student of the 2015/2017 batch in British Model College."],
+  "responses": ["Bibek has achieved several notable accomplishments in his academic career, including KAIST International Student Scholarship 2019-2023 and he was also awarded KAIPlus+ Scholarship award on April 2023. His team won the Social Innovation Award in the SDG Hack 11, Tsinghua Global Summer School 2021 for their project on AI solving education accessibility problems in rural areas. He is a Common Purpose Alumni and received the badge 'Inclusive Leadership 2021'. Bibek secured the highest mark in Nepal for AS Level Chemistry in the Nov 2016 examination series. He also bagged second place in the Quiz in the Budhanilkantha Inter-School Olympiad, 2016. Bibek was third in the Cassini Scientist For a Day Contest, 2017 and he was awarded as the best student of the 2015/2017 batch in British Model College."],
   "context_set": ""
   },
   {"tag": "kaist-activities",
